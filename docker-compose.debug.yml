@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  fastapi-vscode-debug-setup:
+    image: fastapi-vscode-debug-setup
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+    command: uvicorn main:app --reload --host
