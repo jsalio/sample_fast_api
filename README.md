@@ -12,8 +12,15 @@ This is a sample project to learn how to use Fast Api framework and how to use i
 
 ## Credit
 
-* [MoureDev by Brais Moure](https://github.com/mouredev) [Curso de PYTHON desde CERO para BACKEND](https://www.youtube.com/watch?v=_y9qQZXE24A&t=20500s) 
+* The code of this project is based on the tutorial of [MoureDev by Brais Moure](https://github.com/mouredev) : [Curso de PYTHON desde CERO para BACKEND](https://www.youtube.com/watch?v=_y9qQZXE24A&t=20500s)
 
+## Documentation and references 
+
+* [Python](https://www.python.org/doc/)
+* [Fast Api](https://fastapi.tiangolo.com/) or [Fast Api Github](https://github.com/tiangolo/fastapi)
+* [cryptography](https://python-jose.readthedocs.io/en/latest/)
+* [swagger](https://swagger.io/) or [swagger-ui](https://swagger.io/tools/swagger-ui/)
+* [http status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Installation
 
@@ -40,7 +47,6 @@ in terminal run the following command
 ```
 
 Open [http://localhost:8000/docs](http://localhost:8000/docs) or [http://localhost:8000/redoc](http://localhost:8000/redocs) with your browser to see the result.
-
 
 ## Build docker image
 
