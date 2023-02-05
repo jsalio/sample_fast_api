@@ -62,6 +62,15 @@ run the following command to run the docker image
 ```bash
     docker run -d -p 8000:8000 fastapi-sample
 ```
+
+## Run with docker-compose
+
+run the following command to run the docker image
+
+```bash
+    docker-compose up -d
+```
+
 ## Result
 
 ![image](docs/result.png)

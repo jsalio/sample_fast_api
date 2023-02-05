@@ -1,0 +1,22 @@
+version: '3.7'
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+services:
+    backend-db:
+      image: mongo:4.2.8
+      ports:
+        - 27017:27017
+      networks:
+        - backend
+    backend-api:
+      build: .
+      depends_on:
+        - backend-db
+      networks:
+        - backend
+        - frontend
+      ports:
+        - 8000:8000
